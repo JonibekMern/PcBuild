@@ -1,0 +1,316 @@
+@media(max-width: 1400px) {
+    .course__wrapper {
+        flex-wrap: wrap;
+        gap: 30px;
+
+    }
+
+    .item1,
+    .item2 {
+        width: 100%;
+    }
+
+    .course__wrapper-item-line,
+    .course__wrapper-item-text {
+        width: 100%;
+    }
+
+    .why__wrapper {
+        column-gap: 50px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .nav-list {
+        padding: 20px;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+        background-color: black;
+        transform: translateY(-100%);
+        transition: all .3s;
+        z-index: 1;
+    }
+
+    .header.open .nav-list {
+        transform: translateY(0);
+    }
+
+    .header__btn {
+        display: none;
+    }
+
+    .burger__btn {
+        display: block;
+    }
+
+    .why__wrapper {
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .why__wrapper-content-right-title {
+        text-align: center;
+    }
+
+    .brands__wrapper-content-item:nth-child(4),
+    .brands__wrapper-content-item:nth-child(8) {
+        border-right: 1px solid #3c3c3c;
+    }
+
+    .brands__wrapper-content-item:nth-child(5),
+    .brands__wrapper-content-item:nth-child(6) {
+        border-bottom: 1px solid #3c3c3c;
+    }
+}
+
+@media(max-width: 992px) {
+    .content-title {
+        font-size: 50px;
+    }
+
+    .start__wrapper-content {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+
+    .start__wrapper-content-item {
+        width: 80%;
+        align-items: center;
+        border: 1px solid rgb(28, 28, 28);
+        padding: 20px 0;
+    }
+
+    .profession {
+        padding-bottom: 100px;
+    }
+
+    .profession__wrapper-content {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 50px;
+    }
+
+    .profession__wrapper-content-item {
+        width: 80%;
+        border: 1px solid rgb(28, 28, 28);
+        padding: 20px;
+    }
+
+    .profession__wrapper-title {
+        margin-bottom: 50px;
+    }
+
+    .brands__wrapper-content-item:nth-child(2),
+    .brands__wrapper-content-item:nth-child(4),
+    .brands__wrapper-content-item:nth-child(6),
+    .brands__wrapper-content-item:nth-child(8) {
+        border-right: none;
+    }
+
+    .teacher__wrapper-content {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 80px;
+    }
+
+    .teacher__wrapper-content-item {
+        padding: 20px 0;
+        border: 1px solid rgb(28, 28, 28);
+    }
+}
+
+@media(max-width: 768px) {
+    .header {
+        padding: 38px 40px;
+    }
+
+    .content-title {
+        font-size: 27px;
+    }
+
+    .why__wrapper-content-left {
+        width: 80%;
+    }
+
+    .why__wrapper-content-left img {
+        width: 100%;
+    }
+
+    .why__wrapper-content-right-desc {
+        text-align: justify;
+    }
+
+    .learning__wrapper-content {
+        flex-direction: column;
+        row-gap: 90px;
+    }
+
+    .learning__wrapper-content::after {
+        display: none;
+    }
+
+    .learning__wrapper-content-left,
+    .learning__wrapper-content-right {
+        position: relative;
+    }
+
+    .learning__wrapper-content-left::after {
+        content: '';
+        position: absolute;
+        right: 0;
+        height: 100%;
+        width: 2px;
+        background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    }
+
+    .learning__wrapper-content-right::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 2px;
+        background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    }
+
+    .learning__wrapper-content-right .learning__wrapper-content-item::after {
+        right: 0;
+    }
+
+    .learning__wrapper-content-right .learning__wrapper-content-item {
+        align-items: flex-start;
+    }
+
+    .learning__wrapper-content-right .learning__wrapper-content-item-title {
+        text-align: left;
+    }
+
+    .footer__wrapper-content {
+        width: 90%;
+    }
+}
+
+@media(max-width: 576px) {
+    .header {
+        padding: 38px 20px;
+    }
+
+    .intro {
+        height: 600px;
+    }
+
+    .content-title {
+        text-align: center;
+    }
+
+    .intro__wrapper {
+        align-items: center;
+        gap: 30px;
+    }
+
+    .content-sale {
+        gap: 10px;
+    }
+
+    .content-sale-item {
+        width: 70px;
+        height: 80px;
+    }
+
+    .content-sale-item p {
+        font-size: 26px;
+    }
+
+    .content-sale-item span {
+        font-size: 15px;
+    }
+
+    .course__wrapper {
+        flex-direction: column;
+
+    }
+
+    .why {
+        padding: 100px 0 100px;
+    }
+
+    .why__wrapper-content-right-title {
+        font-size: 26px;
+    }
+
+    .section-title {
+        font-size: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .start {
+        padding-bottom: 100px;
+    }
+
+    .start__wrapper-text-title::after {
+        width: 0;
+        height: 0;
+    }
+
+    .start__wrapper-text-desc {
+        width: 100%;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .brands,
+    .teacher {
+        padding-bottom: 100px;
+    }
+
+    .brands__wrapper-content-item {
+        border: none;
+        border-bottom: 1px solid #3c3c3c !important;
+    }
+
+    .brands__wrapper-content-item:last-child {
+        border-bottom: none !important;
+    }
+
+    .footer__form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+        flex-direction: column;
+        height: 108px;
+    }
+
+    .footer__form-input {
+        height: 50%;
+    }
+
+    .footer-btn {
+        display: block;
+        position: static;
+        height: 50%;
+    }
+}
+
+@media(max-width: 450px) {
+    .intro {
+        height: 450px;
+    }
+
+    .learning__wrapper-content-item {
+        width: 300px !important;
+    }
+
+    .teacher__wrapper-content-item {
+        width: 80%;
+    }
+}
